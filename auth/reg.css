@@ -1,0 +1,40 @@
+body {
+    background-image: url(reg.jpg);
+    background-size: cover;
+}
+.infopage {
+    height: calc(100vh - 1px);
+}
+.infopage .regform {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.infopage .regform .logo {
+    margin: 15px 0 35px;
+    width: 250px;
+}
+.infopage .regform .wrong {
+    width: 250px;
+    padding: 15px 5px;
+    background: rgba(255, 0, 0, 0.21);
+    border-radius: 10px;
+}
+input.input-text {
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    width: 250px;
+    padding: 20px 10px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+input.submit {
+    width: 250px;
+    background: #41b2f8;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    cursor: pointer;
+}

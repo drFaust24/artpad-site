@@ -1,0 +1,134 @@
+/*
+Стили для мобильных устройств
+*/
+
+@media only screen and (max-width : 568px) {
+
+/*Общее*/
+    .topmenu {
+        height: 50px;
+    }
+    .authorization {
+        display: none;
+    }
+	.footer-content {
+	    padding: 10px;
+	}
+/*Главная*/
+    .page {
+        min-height: calc(100vh - 91px);
+    }
+	.mainsearch img.logo {
+	    max-width: 250px;
+	}
+	.mainsearch form .input-search {
+	    max-width: 473px;
+	}
+/*Выдача*/
+    .resultpage {
+        min-height: calc(100vh - 41px);
+    }
+    .resultpage .pageresult {
+        background: #f2f2f2;
+    }
+   .resultpage .pageresult .resultsearch {
+        position: relative;
+        padding: 14px 0px;
+    }
+    .resultpage .pageresult .resultsearch .resultsearch2 {
+        padding: 0;
+        margin: 0 10px;
+    }
+	.resultpage .pageresult .resultsearch .searchlogo {
+	    width: 100%;
+        text-align: center;
+	}
+	.resultpage .pageresult .resultsearch form .input-search{
+	    width: calc(100vw - 116px);
+	}
+    .resultpage .pageresult .resultpart {
+        padding: 0 10px;
+    }
+    .resultpage .pageresult .resultpart .center_col {
+        margin: 0;
+    }
+    .resultpage .pageresult .resultpart .center_col .organicresult {
+        max-width: 100%;
+    }
+    .resultpage .pageresult .resultpart .center_col .sidebarresult {
+        max-width: 100%;
+        margin: 0;
+        display: none;
+    }
+    .resultpart .organicresult .ar {
+        border-radius: 5px;
+        background: #fff;
+        padding: 8px;
+    }
+    .resultpart .organicresult .ar .favicon {
+        left: 0;
+    }
+    .resultpart .organicresult .ar h2 a {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    
+/*Главная*/
+    .topmenu {
+        height: 50px;
+    }
+	.mainsearch {
+	    max-width: 100%;
+        padding: 0 10px;
+	}
+	.mainlogo {
+        padding: 0 5px;
+	}
+	.mainsearch img.logo {
+	    max-width: 250px;
+	}
+	.mainsearch form .input-search {
+	    max-width: 288px;
+	    border-radius: 10px;
+	    display: block;
+	    float: none;
+	    padding: 0px;
+	    padding-left: 10px;
+	}
+	.mainsearch form .button-search {
+	    border-radius: 10px;
+	    display: block;
+        margin: 20px auto;
+	}
+	.resultpart .organicresult .pagination {
+        
+    }
+    .resultpart .organicresult .pagination .page-item{
+        border-radius: 19px;
+        margin: 0;
+        font-size: 18px;
+        line-height: 30px;
+        display: inline-block;
+        min-width: 30px;
+    }
+	.footer-content {
+	    padding: 10px;
+	}
+	.footer-left {
+	    display: none;
+	    text-align: center;
+    }
+	.footer-link {
+	    display: block;
+	    margin: 0px;
+	}
+	.footer-right {
+	    display: block;
+	    float: none;
+	    text-align: center;
+	}
+	
+/*Выдача*/
+}
